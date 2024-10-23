@@ -1,0 +1,50 @@
+//IN HTML//
+<div>
+<a>
+<h1>
+<h2>
+<img>
+<meta>
+<p>
+<u>
+<table>
+<thead>
+<tr>
+<td>
+<th>
+<tbody>
+
+//IN CSS//
+background-image
+background-repeat
+background-position
+background-attachment
+background-size
+background-color
+overflow
+float
+color
+text-align
+padding
+text-decoration
+font-size
+margin-bottom
+display
+margin-left
+margin-right
+width
+height
+
+//IN JAVASCRIPT//
+I used the document.querySelectorAll function to a class in my index.html and then iterate each link as forEach(link =>), then use that same link for when it is
+later on clicked on, using link.addEventListener('click', function(event)). Then I will change the page URL programmatically using event.preventDefault(). After
+that i will use the href attribute and add next to it .html so it can display whats inside the template as a new page using const page = this.getAttribute('href').substring(1) + '.html'
+and window.location.href = page
+ALL WITH THE HELP OF CS50 AI
+
+//IN BOOTSTRING//
+https://getbootstrap.com/docs/5.2/components/card/
+I used the card content container to display in my 'Albums' page using card-img-top to display the picture on the top of the container and card-text in the bottom
+of it
+https://getbootstrap.com/docs/5.2/content/tables/
+I used the table components for my contact.html
